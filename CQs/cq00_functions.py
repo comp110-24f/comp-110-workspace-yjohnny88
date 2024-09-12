@@ -8,6 +8,9 @@ def mimic(message: str) -> str:
     return message
 
 
+"hi"
+
+
 def main() -> None:
     """Calling the mimic function"""
     return print(mimic(message=input("What is your message?")))
